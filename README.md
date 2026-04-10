@@ -72,6 +72,75 @@ This project demonstrates how statistical analysis can be used to evaluate produ
 - `abtest.csv` – Dataset used for analysis
 
 ---
+## Visualizations
+
+### Time Spent on Old vs New Landing Page
+![Time Spent Comparison](images/time_spent_comparison.png)
+
+### Conversion Rate Comparison
+![Conversion Rate](images/conversion_rate.png)
+
+### Time Spent by Preferred Language
+![Language Analysis](images/language_analysis.png)
+Conclusion
+Based on the analysis of the A/B test data, the following conclusions can be drawn:
+
+The new landing page keeps users engaged for a longer time.
+The statistical test (one‑tailed t‑test) showed that users spend significantly more time on the new page compared to the old one. This indicates that the updated design and content increase user engagement.
+
+The new page has a higher conversion rate.
+The proportion test (one‑tailed z‑test) confirmed that the conversion rate on the new page is significantly higher than on the old one. The new page is more effective at turning visitors into subscribers.
+
+Conversion does not depend on preferred language.
+The chi‑square test showed no statistically significant relationship between the user’s language and the likelihood of conversion. This means that the interface language does not influence the decision to subscribe.
+
+Time spent on the new page is consistent across language groups.
+ANOVA showed that the average time spent on the new page does not differ between users who prefer English, French, or Spanish. The new page performs equally well across all segments.
+
+Business Recommendations:
+1. Fully roll out the new landing page.
+It demonstrates improved performance across two key metrics:
+
+engagement (time on page)
+
+conversion rate.
+
+This directly contributes to an increase in the number of subscribers.
+
+2. Focus on optimizing content rather than language.
+Since language does not affect either conversion or time on page:
+
+there is no need to create separate design versions for different languages.
+
+resources are better allocated to improving User Experience, Call to Action elements, and content personalization.
+
+3. Continue A/B experiments with elements of the new page.
+It is recommended to test:
+
+different Call to Action variations
+
+text length
+
+placement of key content blocks
+
+personalized article recommendations.
+
+These experiments can further increase conversion.
+
+4. Implement a monitoring system for key metrics.
+After launching the new page, it is important to track:
+
+conversion rate
+
+time on page
+
+depth of engagement (pages per session).
+
+This will allow timely responses to changes in user behavior.
+
+5. Consider content personalization based on interests rather than language.
+Since language does not influence user behavior, but interests do, personalized article recommendations and tailored content blocks can increase engagement.
+
 
 ## Author
 Portfolio project completed as part of a business statistics and data analytics learning path.
